@@ -1,0 +1,12 @@
+﻿  LotteryNumbers.cpp
+c:\users\kiyki\source\repos\lotterynumbers\lotterynumbers\lotterynumbers.cpp(237): error C2955: 'std::uniform_int_distribution': use of class template requires template argument list
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\random(2398): note: see declaration of 'std::uniform_int_distribution'
+c:\users\kiyki\source\repos\lotterynumbers\lotterynumbers\lotterynumbers.cpp(237): error C2065: 'treeDepth': undeclared identifier
+c:\users\kiyki\source\repos\lotterynumbers\lotterynumbers\lotterynumbers.cpp(238): error C2448: 'randomDepth': function-style initializer appears to be a function definition
+c:\users\kiyki\source\repos\lotterynumbers\lotterynumbers\lotterynumbers.cpp(259): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\kiyki\source\repos\lotterynumbers\lotterynumbers\lotterynumbers.cpp(286): error C2664: '_Ty std::uniform_int<_Ty>::operator ()<int>(_Engine &,_Ty) const': cannot convert argument 1 from 'int' to '_Engine &'
+          with
+          [
+              _Engine=int
+          ]
+c:\users\kiyki\source\repos\lotterynumbers\lotterynumbers\lotterynumbers.cpp(289): error C2146: syntax error: missing ';' before identifier 'system'
